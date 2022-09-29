@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+
+
+
+
+
+body{
+    background-color: #191919;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    overflow-x: hidden;
+}
+
+#landpage{
+    background:  url("images/bckimage.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  
+}
+
+nav{
+    font-size: 30px;
+    color: white;
+    border-bottom: 20px solid red !important;
+    background-color: #26075F !important;
+}
+
+nav .container .navbar-brand{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: white;
+}
+
+nav .container .navbar-brand:hover{
+    color: red;
+    transition-delay: .2s;
+}
+
+nav .container .collapse .navbar-nav .nav-item a{
+    color: white !important;
+    padding: 20px 30px;
+}
+
+nav .container .collapse .navbar-nav .nav-item a:hover{
+    text-decoration: underline;
+    padding-bottom: 20px;
+}
+
+#landingtext h2{
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+#about{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#about .container .row .col-lg-6 img{
+    box-sizing: border-box;
+}
+
+#about .container .row .col-lg-6 h2{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    padding: 40px;
+}
+
+#about .container .row .col-lg-6 p{
+    font-size: 30px;
+    text-align: justify;
+    padding: 20px;
+}
+
+#about .container .row .col-lg-6 button{
+    font-size: 20px;
+    padding: 10px 15px;
+    margin-top: 30px;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+
+
+#socials{
+    background:  url("images/secimg.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 60px;
+}
+
+
+#socials .container h2{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
+
+#socials .container {
+    color: black;
+}
+
+#socials .container .row .col-lg-4 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#socials .container .row .col-lg-12 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#socials .container .row .col-lg-4 p{
+    font-style: 40px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
+}
+
+#sociallinks{
+    padding-bottom: 70px;
+}
+
+#sociallinks .container h2{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    padding: 40px;
+}
+
+#sociallinks .container .row .col-lg-4 img{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#sociallinks .container .row .col-lg-4{
+    text-align: center;
+    justify-content: center;
+}
+
+#sociallinks .container h3{
+    font-size: 60px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+
+#youvid{
+    background:  url("images/IMG-20220701-WA0151.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  box-shadow:inset 0 0 0 2000px rgba(5, 0, 12, 0.8);
+    padding: 60px 0px;
+
+}
+
+#youvid .container .row{
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+#youvid .container .row .col-lg-4{
+    margin-bottom: 30px;
+    
+}
+
+#youvid .container h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+
+    
+}
+
+#contact{
+
+	background-color: #232323;
+	color: white;
+    padding-bottom: 50px;
+}
+
+#contact h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    font-weight: bold;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#contact .row h4{
+
+	color: #686868;
+}
+
+
+
+
+
+#footer{
+    background-color: blueviolet;
+    width: 100vw;
+    height: 10vh;
+    text-align: center;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    padding: 20px 0px;
+}
